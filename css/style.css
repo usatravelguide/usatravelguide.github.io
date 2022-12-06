@@ -1,0 +1,23 @@
+body{
+    background-color: azure;    
+}
+.continentimg{            
+    background-size: 600px;
+    background-repeat: no-repeat;
+    padding-left:200px;
+    padding-top:100px;
+    padding-bottom:100px;
+    padding-right:200px;
+}
+.countryrow{
+    margin-top:10px;
+    margin-left:10px;
+}
+
+.countryrow div{
+   width:250px;
+}
+
+.countryrow img{
+    width:200px;
+}
