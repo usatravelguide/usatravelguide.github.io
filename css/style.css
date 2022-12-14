@@ -2,6 +2,16 @@ body{
 /*    background-color: azure;    */
 	background-image: url("../img/Background.jpg"); background-size: cover;
 }
+.mainheader
+{
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+}
+.mainheader, .mainheader a
+{
+	color: yellow;
+}
 .continentimg{            
     background-size: 600px;
     background-repeat: no-repeat;
