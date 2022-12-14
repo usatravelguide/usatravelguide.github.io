@@ -1,6 +1,6 @@
 body{
 /*    background-color: azure;    */
-	background-image: url("/img/Background.jpg");
+	background-image: url("../img/Background.jpg"); background-size: cover;
 }
 .continentimg{            
     background-size: 600px;
