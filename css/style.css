@@ -1,6 +1,7 @@
 body{
 /*    background-color: azure;    */
-	background-image: url("../img/Background.jpg"); background-size: cover;
+	background-image: url("../img/Background.jpg");
+	background-size: cover;
 }
 .mainheader
 {
