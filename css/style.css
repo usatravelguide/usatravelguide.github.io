@@ -3,15 +3,18 @@ body{
 	background-image: url("../img/Background.jpg");
 	background-size: cover;
 }
-.mainheader
-{
+.mainheader{
 	margin-top: 20px;
 	padding-left: 10px;
 	padding-bottom: 20px;
 }
-.mainheader, .mainheader a
-{
+.mainheader, .mainheader a{
 	color: yellow;
+}
+.countrytitle{
+	display:inline;
+	color: red;
+	font-size: 500%;
 }
 .continentimg{            
     background-size: 600px;
@@ -28,6 +31,11 @@ body{
 
 .countryrow div{
    width:250px;
+   color: yellow;
+}
+
+.countryrow a{
+   color: azure;
 }
 
 .countryrow img{
@@ -36,4 +44,8 @@ body{
 
 .ddheader {
 	font-size:120%;
+}
+
+.countryflag{
+	width: 100px;
 }
