@@ -30,7 +30,7 @@ body{
 }
 
 .countryrow div{
-   width:500px;
+   width:250px;
    color: yellow;
 }
 
@@ -39,7 +39,7 @@ body{
 }
 
 .countryrow img{
-    width:500px;
+    width:250px;
 }
 
 .ddheader {
