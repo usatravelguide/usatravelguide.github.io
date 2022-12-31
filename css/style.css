@@ -1,7 +1,8 @@
 body{
-/*    background-color: azure;    */
+    background-color: azure;    
 	background-image: url("../img/Background.jpg");
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 .mainheader{
 	margin-top: 20px;
@@ -48,4 +49,13 @@ body{
 
 .countryflag{
 	width: 100px;
+}
+
+.attractionimg{
+	height: 150px;
+	margin-right: 10px;
+}
+
+.attractioncontainer{
+	margin-top: 20px;
 }
