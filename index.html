@@ -28,7 +28,7 @@
     
   </head>
   <body>
-	<ul class="nav nav-tabs">
+	<ul class="nav nav-tabs" style="display: inline-block;">
 	  <li class="nav-item dropdown">
 		<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color:black;">USA Travel Guide</a>
 		<div class="dropdown-menu">
@@ -52,6 +52,15 @@
 	  </li>
 	  </li>
 	</ul>
+	<div id="searchDropdown" class="search-dropdown-content">
+		<input type="text" placeholder="Search.." id="searchInput" onkeyup="searchFilterFunction()" onclick="displaySearch()" onfocusout="setTimeout(hideSearch,500)">
+		<div id="SearchList" class="search-list">
+			<a href="china.html">China</a>
+			<a href="japan.html">Japan</a>
+			<a href="northkorea.html">North Korea</a>
+			<a href="southkorea.html">South Korea</a>
+		</div>
+	</div>
 
     <div class="container-fluid">
 	<div class="mainheader">
@@ -163,6 +172,7 @@
     <script src="js/jquery-3.4.1.slim.min.js"></script>
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/site.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-HVXWW6SJQ0"></script>
      <script>
   window.dataLayer = window.dataLayer || [];
