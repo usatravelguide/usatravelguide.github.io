@@ -26,6 +26,7 @@ body{
 .regionrowasia, .regionroweurope{
 	margin-left: 10px;
 	position: relative;
+	margin-bottom: 30px;
 }
 
  .regionrowasia:before, .regionroweurope:before{
