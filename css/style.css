@@ -15,6 +15,37 @@ body{
 	font-family: Verdana;
 }
 
+.mainheadercaption, .mainheader h2{
+	font-family:Georgia;
+    /*background-image: linear-gradient(45deg, #f3ec78, #af4261);*/
+    /*    background-image: linear-gradient(#773311, #ef8231);*/
+    background-image: linear-gradient(blue, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;}
+
+.mainheadercaption{
+	font-size:500%;
+}
+
+.mainheadersubcaption, .mainheader h4{
+	font-family:Verdana;
+    background-image: linear-gradient(to left, red, midnightblue);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.mainheadersubcaption{
+	font-size:140%;
+}
+
+.mainheadercaption, .mainheadersubcaption{
+	text-align:center;
+}
+
 .topmenu {
 	display: inline-block;
 }
@@ -179,4 +210,14 @@ body{
 
 .search-list{
 	display: none;
+}
+.gmap_canvas{overflow:hidden;
+	background:none!important;
+	height:500px;
+	width:600px;
+}
+.mapouter{position:relative;
+	text-align:right;
+	height:500px;
+	width:600px;
 }
