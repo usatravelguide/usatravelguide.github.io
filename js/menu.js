@@ -1,4 +1,4 @@
-$("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
+$(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '	  <li class="nav-item dropdown">' + 
 '		<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">USA Travel Guide</a>' + 
 '		<div class="dropdown-menu">' + 
@@ -48,4 +48,4 @@ $("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '			<a href="unitedkingdom.html">United Kingdom</a>' + 
 '			<a href="vietnam.html">Vietnam</a>' + 
 '		</div>' + 
-'	</div>');
+'	</div>'));
