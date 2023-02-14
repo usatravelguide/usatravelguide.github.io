@@ -22,7 +22,7 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '			<a class="dropdown-item" href="ireland.html">Ireland</a>' + 
 '			<a class="dropdown-item" href="italy.html">Italy</a>' + 
 '			<a class="dropdown-item" href="switzerland.html">Switzerland</a>' +
-'     <a class="dropdown-item" href="latvia.html">Latvia</a>' + 
+'     <a class="dropdown-item" href="latvia.html">Latvia</a>' +
 ' '+
 '		</div>' + 
 '	  </li>' + 
