@@ -33,6 +33,10 @@ body{
 	font-size:300%;
 }
 
+.mainheadercaptionlink:hover a {
+  text-decoration: none;
+}
+
 .mainheadersubcaption{
 	font-family:Verdana;
     background-image: linear-gradient(to left, red, midnightblue);
