@@ -29,7 +29,7 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '	  </li>' + 
 '	</ul>' + 
 '	<div id="searchDropdown" class="search-dropdown-content">' + 
-'		<label id="lblSearch" for="searchInput" hidden="hidden" />' + 
+'		<label id="lblSearch" for="searchInput" class="hiddenLabel">Search</label>' + 
 '		<input type="text" placeholder="Search.." id="searchInput" onkeyup="searchFilterFunction()" onclick="displaySearch()" onfocusout="setTimeout(hideSearch,500)">' + 
 '		<div id="SearchList" class="search-list">' + 
 '			<a href="china.html">China</a>' + 
