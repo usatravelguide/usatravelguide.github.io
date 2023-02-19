@@ -112,15 +112,15 @@ body{
 }
 
 .countrylink:hover {
-  opacity: 0.8;
+	opacity: 0.8;
 }
 
-.countrylink:hover a {
-  text-decoration: none;
+.countrylink:hover a, .countrycontainer:hover a {
+	text-decoration: none;
 }
 
-.countrylink a {
-  font-weight:bold;
+.countrylink a, .countrycontainer a {
+	font-weight:bold;
 }
 
 .countrylink {
@@ -128,12 +128,12 @@ body{
 }
 
 .countrylink p, h2 {
-  text-align:center;
-  padding-top:4px;
-  padding-bottom:10px;
-  padding-right:50px;
-  font-size: 100%;
-  font-weight:bold;
+	text-align:center;
+	padding-top:4px;
+	padding-bottom:10px;
+	padding-right:50px;
+	font-size: 100%;
+	font-weight:bold;
 }
 
 .countrylink img{
@@ -149,7 +149,7 @@ body{
    width:250px;
 }
 
-.countryrow a{
+.countryrow a, .countrycontainer a{
    color: maroon;
 }
 
