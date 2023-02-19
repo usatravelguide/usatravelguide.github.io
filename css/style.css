@@ -127,9 +127,13 @@ body{
 	transition: .3s ease;
 }
 
-.countrylink p {
+.countrylink p, h2 {
   text-align:center;
+  padding-top:4px;
+  padding-bottom:10px;
   padding-right:50px;
+  font-size: 100%;
+  font-weight:bold;
 }
 
 .countrylink img{
