@@ -127,7 +127,7 @@ body{
 	transition: .3s ease;
 }
 
-.countrylink p, h2 {
+.countrylink p, .countrylink h2 {
 	text-align:center;
 	padding-top:4px;
 	padding-bottom:10px;
