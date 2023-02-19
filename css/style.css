@@ -238,3 +238,7 @@ body{
 .countrycontainer{
 	max-width:1200px;	
 }
+
+.hiddenLabel{
+	display:none;
+}
