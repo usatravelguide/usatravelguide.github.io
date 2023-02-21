@@ -23,6 +23,7 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '			<a class="dropdown-item" href="italy.html">Italy</a>' + 
 '			<a class="dropdown-item" href="switzerland.html">Switzerland</a>' +
 '           <a class="dropdown-item" href="latvia.html">Latvia</a>' +
+'           <a class="dropdown-item" href="germany.html">Germany</a>' +
 ' '+
 '		</div>' + 
 '	  </li>' + 
@@ -34,6 +35,7 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '		<div id="SearchList" class="search-list">' + 
 '			<a href="china.html">China</a>' + 
 '			<a href="france.html">France</a>' + 
+'           <a href="germany.html">Germany</a>' +                          
 '			<a href="india.html">India</a>' + 
 '			<a href="ireland.html">Ireland</a>' + 
 '			<a href="italy.html">Italy</a>' + 
