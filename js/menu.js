@@ -24,6 +24,7 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '			<a class="dropdown-item" href="switzerland.html">Switzerland</a>' +
 '           <a class="dropdown-item" href="latvia.html">Latvia</a>' +
 '           <a class="dropdown-item" href="germany.html">Germany</a>' +
+'           <a class="dropdown-item" href="belgium.html">Belgium</a>' +
 ' '+
 '		</div>' + 
 '	  </li>' + 
@@ -33,6 +34,7 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '		<label id="lblSearch" for="searchInput" class="hiddenLabel">Search</label>' + 
 '		<input type="text" placeholder="Search.." id="searchInput" onkeyup="searchFilterFunction()" onclick="displaySearch()" onfocusout="setTimeout(hideSearch,500)">' + 
 '		<div id="SearchList" class="search-list">' + 
+'			<a href="belgium.html">Belgium</a>' +
 '			<a href="china.html">China</a>' + 
 '			<a href="france.html">France</a>' + 
 '           <a href="germany.html">Germany</a>' +                          
