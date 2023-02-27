@@ -25,6 +25,9 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '           <a class="dropdown-item" href="latvia.html">Latvia</a>' +
 '           <a class="dropdown-item" href="germany.html">Germany</a>' +
 '           <a class="dropdown-item" href="belgium.html">Belgium</a>' +
+'			<div class="dropdown-divider"></div>' + 
+'			<h6 class="dropdown-header ddheader">Oceania</h6>' + 
+'           <a class="dropdown-item" href="australia.html">Australia</a>' +
 ' '+
 '		</div>' + 
 '	  </li>' + 
@@ -34,6 +37,7 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '		<label id="lblSearch" for="searchInput" class="hiddenLabel">Search</label>' + 
 '		<input type="text" placeholder="Search.." id="searchInput" onkeyup="searchFilterFunction()" onclick="displaySearch()" onfocusout="setTimeout(hideSearch,500)">' + 
 '		<div id="SearchList" class="search-list">' + 
+'			<a href="australia.html">Australia</a>' +
 '			<a href="belgium.html">Belgium</a>' +
 '			<a href="china.html">China</a>' + 
 '			<a href="france.html">France</a>' + 
@@ -55,4 +59,14 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '			<a href="unitedkingdom.html">United Kingdom</a>' + 
 '			<a href="vietnam.html">Vietnam</a>' + 
 '		</div>' + 
-'	</div>'));
+'	</div>' +
+'		<!-- The Modal -->' + 
+'		<div id="myModal" class="modal">' + 
+'			<!-- The Close Button -->' + 
+'			<span class="close">&times;</span>' + 
+'			<!-- Modal Content (The Image) -->' + 
+'			<img class="modal-content" id="imgModalPopup">' + 
+'			<!-- Modal Caption (Image Text) -->' + 
+'			<div id="caption"></div>' + 
+'		</div>'
+));
