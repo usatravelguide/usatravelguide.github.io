@@ -22,12 +22,13 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '			<a class="dropdown-item" href="ireland.html">Ireland</a>' + 
 '			<a class="dropdown-item" href="italy.html">Italy</a>' + 
 '			<a class="dropdown-item" href="switzerland.html">Switzerland</a>' +
-'           <a class="dropdown-item" href="latvia.html">Latvia</a>' +
-'           <a class="dropdown-item" href="germany.html">Germany</a>' +
-'           <a class="dropdown-item" href="belgium.html">Belgium</a>' +
+'     <a class="dropdown-item" href="latvia.html">Latvia</a>' +
+'     <a class="dropdown-item" href="germany.html">Germany</a>' +
+'     <a class="dropdown-item" href="belgium.html">Belgium</a>' +
 '			<div class="dropdown-divider"></div>' + 
 '			<h6 class="dropdown-header ddheader">Oceania</h6>' + 
-'           <a class="dropdown-item" href="australia.html">Australia</a>' +
+'     <a class="dropdown-item" href="australia.html">Australia</a>' +
+'     <a class="dropdown-item" href="newzealand.html">New Zealand</a>' +
 ' '+
 '		</div>' + 
 '	  </li>' + 
@@ -41,13 +42,14 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '			<a href="belgium.html">Belgium</a>' +
 '			<a href="china.html">China</a>' + 
 '			<a href="france.html">France</a>' + 
-'           <a href="germany.html">Germany</a>' +                          
+'     <a href="germany.html">Germany</a>' +                          
 '			<a href="india.html">India</a>' + 
 '			<a href="ireland.html">Ireland</a>' + 
 '			<a href="italy.html">Italy</a>' + 
 '			<a href="japan.html">Japan</a>' + 
-'           <a href="latvia.html">Latvia</a>' + 
-'			<a href="malaysia.html">Malaysia</a>' + 
+'     <a href="latvia.html">Latvia</a>' + 
+'			<a href="malaysia.html">Malaysia</a>' +
+'			<a href="newzealand.html">New Zealand</a>' + 
 '			<a href="northkorea.html">North Korea</a>' + 
 '			<a href="philippines.html">Philippines</a>' + 
 '			<a href="portugal.html">Portugal</a>' + 
