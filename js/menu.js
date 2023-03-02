@@ -67,6 +67,6 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '			<!-- Modal Content (The Image) -->' + 
 '			<img class="modal-content" id="imgModalPopup">' + 
 '			<!-- Modal Caption (Image Text) -->' + 
-'			<div id="caption"></div>' + 
+'			<a id="caption" target="_blank"></a>' + 
 '		</div>'
 ));

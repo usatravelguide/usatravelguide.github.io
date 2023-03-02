@@ -37,6 +37,7 @@ if (img)
 		  modal.style.display = "block";
 		  modalImg.src = this.src;
 		  captionText.innerHTML = this.title;
+		  captionText.href = this.dataset.linkto;
 		});
 	});
 }
