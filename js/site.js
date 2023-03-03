@@ -37,7 +37,15 @@ if (img)
 		  modal.style.display = "block";
 		  modalImg.src = this.src;
 		  captionText.innerHTML = this.title;
-		  captionText.href = this.dataset.linkto;
+		  if (this.dataset.linkto)
+		  {
+			captionText.href = this.dataset.linkto;
+			captionText.onclick = "";
+		  }
+		  else
+		  {
+			captionText.onclick = "return false";
+		  }
 		});
 	});
 }
