@@ -29,6 +29,7 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '			<h6 class="dropdown-header ddheader">Oceania</h6>' + 
 '     <a class="dropdown-item" href="australia.html">Australia</a>' +
 '     <a class="dropdown-item" href="newzealand.html">New Zealand</a>' +
+'     <a class="dropdown-item" href="fiji.html">Fiji</a>' +
 ' '+
 '		</div>' + 
 '	  </li>' + 
@@ -40,7 +41,8 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '		<div id="SearchList" class="search-list">' + 
 '			<a href="australia.html">Australia</a>' +
 '			<a href="belgium.html">Belgium</a>' +
-'			<a href="china.html">China</a>' + 
+'			<a href="china.html">China</a>' +
+'			<a href="fiji.html">Fiji</a>' +
 '			<a href="france.html">France</a>' + 
 '     <a href="germany.html">Germany</a>' +                          
 '			<a href="india.html">India</a>' + 
