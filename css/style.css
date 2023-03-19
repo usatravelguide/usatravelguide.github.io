@@ -43,7 +43,7 @@ body{
 	font-size:300%;
 }
 
-.mainheadercaptionlink:hover a {
+.mainheadercaptionlink:hover a, .topmenu-info:hover a {
   text-decoration: none;
 }
 
@@ -211,13 +211,12 @@ body{
 
 /* search dropdown content */
 .search-dropdown-content {
-  display: block;
+  display: inline-block;
   position: absolute;
   background-color: #f6f6f6;
   min-width: 230px;
   border: 1px solid #ddd;
   z-index: 1;
-  display: inline-block;
   vertical-align:top;
   margin-left:60px;
   margin-top: 6px;
@@ -237,6 +236,22 @@ body{
 .search-list{
 	display: none;
 }
+
+/* top menu information links */
+.topmenu-info {
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  vertical-align:top;
+  margin-left:330px;
+  margin-top: 11px;
+}
+
+.topmenu-info a{
+	color: maroon;
+	font-family: Georgia;
+}
+
 .gmap_canvas{overflow:hidden;
 	background:none!important;
 	height:500px;
