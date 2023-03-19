@@ -44,12 +44,12 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '			<a href="china.html">China</a>' +
 '			<a href="fiji.html">Fiji</a>' +
 '			<a href="france.html">France</a>' + 
-'     <a href="germany.html">Germany</a>' +                          
+'           <a href="germany.html">Germany</a>' +                          
 '			<a href="india.html">India</a>' + 
 '			<a href="ireland.html">Ireland</a>' + 
 '			<a href="italy.html">Italy</a>' + 
 '			<a href="japan.html">Japan</a>' + 
-'     <a href="latvia.html">Latvia</a>' + 
+'           <a href="latvia.html">Latvia</a>' + 
 '			<a href="malaysia.html">Malaysia</a>' +
 '			<a href="newzealand.html">New Zealand</a>' + 
 '			<a href="northkorea.html">North Korea</a>' + 
@@ -63,6 +63,9 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '			<a href="unitedkingdom.html">United Kingdom</a>' + 
 '			<a href="vietnam.html">Vietnam</a>' + 
 '		</div>' + 
+'	</div>' +
+'	<div id="" class="topmenu-info">' + 
+'		<a href="visa.html">How to obtain visa</a>' + 
 '	</div>' +
 '		<!-- The Modal -->' + 
 '		<div id="myModal" class="modal">' + 
