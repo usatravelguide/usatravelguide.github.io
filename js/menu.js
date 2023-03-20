@@ -9,7 +9,7 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '			<a class="dropdown-item" href="southkorea.html">South Korea</a>' + 
 '			<a class="dropdown-item" href="taiwan.html">Taiwan</a>' + 
 '			<a class="dropdown-item" href="vietnam.html">Vietnam</a>' + 
-'			<a class="dropdown-item" href="Philippines.html">Philippines</a>' + 
+'			<a class="dropdown-item" href="philippines.html">Philippines</a>' + 
 '			<a class="dropdown-item" href="malaysia.html">Malaysia</a>' + 
 '			<a class="dropdown-item" href="india.html">India</a>' + 
 '			<a class="dropdown-item" href="singapore.html">Singapore</a>' + 
