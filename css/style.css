@@ -167,7 +167,7 @@ body{
 }
 
 .countryrow img{
-    width:200px;
+    width: 200px;
 	height: 120px;
 }
 
@@ -177,6 +177,11 @@ body{
 
 .countryflag{
 	width: 100px;
+}
+
+.visaimg{
+	width: 500px;
+	margin-bottom: 10px;
 }
 
 .attractionimg{
