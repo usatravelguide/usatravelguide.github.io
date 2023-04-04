@@ -78,7 +78,7 @@ body{
 	margin-bottom: 30px;
 }
 
- .regionrowasia:before, .regionroweurope:before, .regionrowoceania:before{
+ .regionrowasia:before, .regionroweurope:before, .regionrowoceania, .regionrowsouthamerica:before{
   content: ' ';
   display: block;
   position: absolute;
@@ -101,6 +101,10 @@ body{
 
  .regionrowoceania:before{
   background-image: url('../img/Oceania.jpg');
+ }
+
+ .regionrowsouthamerica:before{
+  background-image: url('../img/SouthAmerica.jpg');
  }
 
  .continentimg{
