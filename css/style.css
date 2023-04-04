@@ -78,7 +78,7 @@ body{
 	margin-bottom: 30px;
 }
 
- .regionrowasia:before, .regionroweurope:before, .regionrowoceania, .regionrowsouthamerica:before{
+ .regionrowasia:before, .regionroweurope:before, .regionrowoceania:before, .regionrowsouthamerica:before{
   content: ' ';
   display: block;
   position: absolute;
