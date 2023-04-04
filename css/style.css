@@ -73,7 +73,7 @@ body{
 }
 
 .regionrowasia, .regionroweurope, .regionrowoceania, .regionrowsouthamerica{
-	margin-left: 10px;
+	margin-left: 320px;
 	position: relative;
 	margin-bottom: 30px;
 }
@@ -125,7 +125,7 @@ body{
 	display:inline;
 	color: red;
 	font-family: "Lucida Handwriting", "Times New Roman", "Verdana";
-	font-size: 500%;
+	font-size: 400%;
 }
 
 .countrylink:hover {
@@ -159,7 +159,7 @@ body{
 
 .countryrow{
     margin-top:10px;
-    margin-left:10px;
+    margin-left:320px;
 }
 
 .countryrow div{
