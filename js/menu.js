@@ -33,6 +33,9 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '     <a class="dropdown-item" href="papuanewguinea.html">Papua New Guinea</a>' +
 '			<a class="dropdown-item" href="frenchpolynesia.html">French Polynesia</a>' +
 '			<a class="dropdown-item" href="tuvalu.html">Tuvalu</a>' +
+'			<div class="dropdown-divider"></div>' + 
+'			<h6 class="dropdown-header ddheader">South America</h6>' +
+'			<a class="dropdown-item" href="brazil.html">Brazil</a>' +
 ' '+
 '		</div>' + 
 '	  </li>' + 
@@ -44,6 +47,7 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '		<div id="SearchList" class="search-list">' + 
 '			<a href="australia.html">Australia</a>' +
 '			<a href="belgium.html">Belgium</a>' +
+'			<a href="brazil.html">Brazil</a>' +
 '			<a href="china.html">China</a>' +
 '			<a href="fiji.html">Fiji</a>' +
 '			<a href="france.html">France</a>' +
