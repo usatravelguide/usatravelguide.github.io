@@ -73,7 +73,7 @@ body{
 }
 
 .regionrowasia, .regionroweurope, .regionrowoceania, .regionrowsouthamerica{
-	margin-left: 320px;
+	margin-left: 180px;
 	position: relative;
 	margin-bottom: 30px;
 }
@@ -159,7 +159,7 @@ body{
 
 .countryrow{
     margin-top:10px;
-    margin-left:320px;
+    margin-left:180px;
 }
 
 .countryrow div{
