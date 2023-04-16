@@ -36,6 +36,8 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '			<div class="dropdown-divider"></div>' + 
 '			<h6 class="dropdown-header ddheader">South America</h6>' +
 '			<a class="dropdown-item" href="brazil.html">Brazil</a>' +
+'			<a class="dropdown-item" href="argentina.html">Argentina</a>' +
+'			<a class="dropdown-item" href="colombia.html">Colombia</a>' +
 ' '+
 '		</div>' + 
 '	  </li>' + 
@@ -45,10 +47,12 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '		<label id="lblSearch" for="searchInput" class="hiddenLabel">Search</label>' + 
 '		<input type="text" placeholder="Search.." id="searchInput" onkeyup="searchFilterFunction()" onclick="displaySearch()" onfocusout="setTimeout(hideSearch,500)">' + 
 '		<div id="SearchList" class="search-list">' + 
+'			<a href="argentina.html">Argentina</a>' +
 '			<a href="australia.html">Australia</a>' +
 '			<a href="belgium.html">Belgium</a>' +
 '			<a href="brazil.html">Brazil</a>' +
 '			<a href="china.html">China</a>' +
+'			<a href="colombia.html">Colombia</a>' +
 '			<a href="fiji.html">Fiji</a>' +
 '			<a href="france.html">France</a>' +
 '			<a href="frenchpolynesia.html">French Polynesia</a>' +                                          
