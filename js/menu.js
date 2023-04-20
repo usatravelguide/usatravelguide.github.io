@@ -79,8 +79,8 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '		</div>' + 
 '	</div>' +
 '	<div id="" class="topmenu-info">' + 
-'		<a href="visa.html">How to obtain visa</a>' + 
-'		<a href="passport.html">How to obtain US Passport</a>' + 
+'		<a href="visa.html">Visas</a>' + 
+'		<a href="passport.html">Passport</a>' + 
 '	</div>' +
 '		<!-- The Modal -->' + 
 '		<div id="myModal" class="modal">' + 
