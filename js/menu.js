@@ -38,6 +38,7 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '			<a class="dropdown-item" href="brazil.html">Brazil</a>' +
 '			<a class="dropdown-item" href="argentina.html">Argentina</a>' +
 '			<a class="dropdown-item" href="colombia.html">Colombia</a>' +
+'			<a class="dropdown-item" href="ecuador.html">Ecuador</a>' +
 ' '+
 '		</div>' + 
 '	  </li>' + 
@@ -53,6 +54,7 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '			<a href="brazil.html">Brazil</a>' +
 '			<a href="china.html">China</a>' +
 '			<a href="colombia.html">Colombia</a>' +
+'			<a href="ecuador.html">Ecuador</a>' +
 '			<a href="fiji.html">Fiji</a>' +
 '			<a href="france.html">France</a>' +
 '			<a href="frenchpolynesia.html">French Polynesia</a>' +                                          
@@ -80,7 +82,10 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '	</div>' +
 '	<div id="" class="topmenu-info">' + 
 '		<a href="visa.html">Visas</a>' + 
+' | ' + 
 '		<a href="passport.html">Passport</a>' + 
+' | ' + 
+'		<a href="faq.html">FAQ</a>' + 
 '	</div>' +
 '		<!-- The Modal -->' + 
 '		<div id="myModal" class="modal">' + 
