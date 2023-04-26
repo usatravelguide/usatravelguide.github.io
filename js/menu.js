@@ -39,6 +39,7 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '			<a class="dropdown-item" href="argentina.html">Argentina</a>' +
 '			<a class="dropdown-item" href="colombia.html">Colombia</a>' +
 '			<a class="dropdown-item" href="ecuador.html">Ecuador</a>' +
+'			<a class="dropdown-item" href="peru.html">Peru</a>' +
 ' '+
 '		</div>' + 
 '	  </li>' + 
@@ -68,6 +69,7 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '			<a href="newzealand.html">New Zealand</a>' + 
 '			<a href="northkorea.html">North Korea</a>' + 
 '			<a href="papuanewguinea.html">Papua New Guinea</a>' +
+'			<a href="peru.html">Peru</a>' +
 '			<a href="philippines.html">Philippines</a>' + 
 '			<a href="portugal.html">Portugal</a>' + 
 '			<a href="singapore.html">Singapore</a>' + 
