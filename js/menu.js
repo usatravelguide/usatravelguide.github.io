@@ -87,7 +87,9 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 ' | ' + 
 '		<a href="passport.html">Passport</a>' + 
 ' | ' + 
-'		<a href="faq.html">FAQ</a>' + 
+'		<a href="faq.html">FAQ</a>' +
+' | ' + 
+'		<a href="beforeyoutravel.html">Before You Travel</a>' + 
 '	</div>' +
 '		<!-- The Modal -->' + 
 '		<div id="myModal" class="modal">' + 
