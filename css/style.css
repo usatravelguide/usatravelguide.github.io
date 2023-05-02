@@ -183,12 +183,12 @@ body{
 	width: 100px;
 }
 
-.visaimg, .faqimg, .passportimg{
+.visaimg, .passportimg{
 	width: 500px;
 	margin-bottom: 10px;
 }
 
-.suitcaseimg{
+.suitcaseimg, .faqimg{
 	height: 500px;
 	width: 1000 px;
 	margin-bottom: 10px;
