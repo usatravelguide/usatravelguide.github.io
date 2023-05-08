@@ -72,13 +72,13 @@ body{
 	color: black;
 }
 
-.regionrowasia, .regionroweurope, .regionrowoceania, .regionrowsouthamerica{
+.regionrowasia, .regionroweurope, .regionrowoceania, .regionrowsouthamerica, .regionrowafrica{
 	margin-left: 180px;
 	position: relative;
 	margin-bottom: 30px;
 }
 
- .regionrowasia:before, .regionroweurope:before, .regionrowoceania:before, .regionrowsouthamerica:before{
+ .regionrowasia:before, .regionroweurope:before, .regionrowoceania:before, .regionrowsouthamerica:before, .regionrowafrica:before{
   content: ' ';
   display: block;
   position: absolute;
@@ -105,6 +105,10 @@ body{
 
  .regionrowsouthamerica:before{
   background-image: url('../img/SouthAmerica.jpg');
+ }
+
+.regionrowafrica:before{
+  background-image: url('../img/Africa.jpg');
  }
 
  .continentimg{
