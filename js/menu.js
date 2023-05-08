@@ -42,6 +42,8 @@ $(document).ready($("#topmenustrip").html('<ul class="nav nav-tabs topmenu">' +
 '			<a class="dropdown-item" href="peru.html">Peru</a>' +
 '			<a class="dropdown-item" href="chile.html">Chile</a>' +
 '			<a class="dropdown-item" href="bolivia.html">Bolivia</a>' +
+'			<div class="dropdown-divider"></div>' + 
+'			<h6 class="dropdown-header ddheader">Africa</h6>' +
 ' '+
 '		</div>' + 
 '	  </li>' + 
